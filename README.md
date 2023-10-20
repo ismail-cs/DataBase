@@ -1,34 +1,48 @@
-fild = column, record = row, keyfild = header
+fild = column,   record = row,   keyfild = header
 
+- [x] show database list
+```
+SHOW DATABASES;    
+```
+---
 
-SHOW DATABASES;    (show database list)
+- [x] Create Database
+```
+CREATE DATABASE DB_name;
+```
+--- 
 
-CREATE DATABASE [DB_name];    (create database)
-CREATE DATABASE college;
+- [x] Delete Database
+```
+DROP DATABASE DB_name;
+```
 
-DROP DATABASE [DB_name];   (delete database)
-DROP DATABASE college;
+---
 
-CREATE TABLE [table_name] (create table)
+- [x] Create table
+```
+CREATE TABLE table_name
 (
 
-
-
-);
-
-
-CREATE TABLE student 
-(
 	Roll int, 
-    Name varchar(20),
+    	Name varchar(20),
 	Gender varchar(10),
 	Age int(5),
 	GPA double(3,2),
 	City varchar(15),
 	PRIMARY KEY (Roll) 
+
 );
+```
+---
 
-DROP TABLE [table_name];     (delete table)
+- [x] Delete Table
+```
+DROP TABLE table_name;     
+```
+---
 
-RENAME TABLE old_name TO new_name;     (rename table)
-
+- [x] Rename Table
+```
+RENAME TABLE old_name TO new_name;     
+```
